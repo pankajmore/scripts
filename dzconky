@@ -1,0 +1,6 @@
+#!/bin/sh
+
+FG='#aaaaaa'
+BG='#1a1a1a'
+FONT=':inconsolata:pixelsize=12:antialias=true:hinting=true'
+conky | dzen2 -e - -h '16' -w '1600' -ta r -fg $FG -bg $BG 
