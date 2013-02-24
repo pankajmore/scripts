@@ -1,0 +1,3 @@
+#! /bin/bash
+pom
+curl -X POST -H "Content-Type:application/json" -d '{"apiToken":"0a1eab9f-816f-4538-b90c-b2a3ef4ac5e6"}' https://habitrpg.com/v1/users/02f9c3df-4935-4c4b-ad3b-0e0b90e39d91/tasks/pomodoros/up
